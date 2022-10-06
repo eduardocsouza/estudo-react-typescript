@@ -11,7 +11,7 @@ function App() {
       <br />
       <hr />
       <h1>2 Formulário com controle de input</h1>
-      <ControllerInput user={{nome: 'eduardo', email: 'eduardo@gmail.com'}}/>
+      <ControllerInput user={{nome: 'eduardo', email: 'eduardo@gmail.com', bio:'Estou testando', role:'admin'}}/>
     </div>
   )
 }

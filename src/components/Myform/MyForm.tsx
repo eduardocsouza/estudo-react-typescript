@@ -12,7 +12,8 @@ function MyForm() {
 
   function handleSubmit(event: FormEvent<HTMLFormElement>){
     event.preventDefault();
-    
+    console.log('Primeiro form')
+    console.log(nome, email)
   }
 
   return (
